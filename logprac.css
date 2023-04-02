@@ -1,0 +1,80 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    background: url('https://images.pexels.com/photos/12770192/pexels-photo-12770192.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+}
+.formbox{
+    width: 90%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    padding: 50px 60px 70px;
+    text-align: center;
+}
+.formbox h1{
+    font-size: 30px;
+    margin-bottom: 50px;
+    color: rgb(223, 199, 169);
+    position: relative;
+}
+.formbox h1::after{
+    content: '';
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    background: rgb(223, 199, 169);
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.inputfield{
+    background: rgb(211, 185, 185);
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+}
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px;
+}
+.forget a{ 
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(184, 155, 121);
+}
+.btnfield{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.btnfield button{
+    flex-basis: 48%;
+    height: 35px;
+    border-radius: 3px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    color: rgb(184, 155, 121);
+    transform:  3s;
+}
+.inputgroup{
+    height: 280px;
+}
+.btnfield button.disable{
+    background-color: rgb(255, 255, 255);
+}
+.btnfield button.able{
+    background-color: rgb(247, 232, 232);
+}

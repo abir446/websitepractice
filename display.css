@@ -1,0 +1,33 @@
+img{
+    display: block;
+    margin: auto;
+    height: 80px;
+    width: 80px;
+}
+h3{
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+header{
+    margin: auto;
+    border: 2px solid red;
+    width: 13%;
+}
+.box{
+    margin: 6px 17px;
+    border: 2px solid palevioletred;
+    background-color: antiquewhite;
+}
+.paratext{
+    border: 2px;
+    margin: 3px;
+    box-sizing: border-box;
+    padding: 3px 3px;
+}
+.heading{
+        border: 2px;
+        margin: 3px;
+    box-sizing: border-box;
+    padding: 3px 3px;
+}

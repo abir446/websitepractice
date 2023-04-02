@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h3>learning forms in HTML</h3>
+    <form action="backend.php">
+        <label for="name">Name: </label>
+        <div> <input type="text" name="myName" id="name"></div><br>
+        <div class="First">Role: <input type="text" name="myRole"></div><br>
+        <div>Email ID: <input type="email" name="myEmail" id=""><br>
+            <div>Male <input type="radio" name="myGender" checked> Female <input type="radio" name="myGender"></div><br>
+            <div>Bonus: <input type="number" name="myBonus" id=""></div>
+            <label for="processor">Processors available: </label>
+            <select name="myProcessor" id="processor">
+                <option value="i5f">Intel i5 10400F</option>
+                <option value="i5">Intel i5 10400</option>
+            </select>
+            <div>Knows coding: <input type="checkbox"></div><br>
+            <div>Knows designing: <input type="checkbox"></div><br>
+            <div>
+             Write about yourself:   <textarea name="myText" col="10" rows="10"></textarea>
+            </div>
+            <div><input type="date" name="" id=""><br>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: system-ui,  'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+p,h2,h3{
+    text-align: center;
+}
+#firstheading{
+    margin: auto auto;
+}
+
+.container{
+    width: 800px;
+    padding: 2px;
+    border: 2px solid pale violetred;
+   
+    margin: 13px auto;
+}
+.item{
+    border: 2px solid rgb(140, 112, 112);
+    padding: 7px;
+    background-color: aliceblue;
+    fill-opacity: 30%;
+    margin: 3px;
+}
+#fruits {
+    float: left;
+    width: 48%;
+}
+
+#vegetables {
+    float: left;
+    width: 48%;
+}
+
+#mobile {
+    /* float: left; */
+    clear: both;
+    /* clear: left; */
+    float: bottom;
+    width: 100%;
+}

@@ -1,0 +1,16 @@
+.fstp{
+    color: black;
+    background-color: green;
+}
+.toblue{
+    color: blue;
+}
+.bgred{
+    color: yellow;
+    background-color: red;
+}
+footer, span{
+    border: 3px solid greenyellow;
+    background-color: pink;
+    color: blueviolet;
+}

@@ -1,0 +1,32 @@
+.navbar{
+    background-color: rgb(79, 79, 212);
+    border-radius: 4px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 7px 16px;
+}
+.navbar li a{
+    color: aliceblue;
+    padding: 5px 7px;
+    text-decoration: none;
+}
+.search{
+    
+    color: bisque;
+    text-align: right;
+    padding: 3px 18px;
+    margin: 3px 3px;
+}
+#search{
+    border: 2px solid rgb(180, 183, 201);
+    border-radius: 5px;
+    padding: 4px 16px;
+}
+.navsearch:hover{
+    color: rgb(37, 38, 77);
+}
